@@ -1,0 +1,741 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.animated-h1 {
+    width: 800px;
+    background-color: #000000;
+    margin: 50px auto;
+    color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    transform: scale(1.3);
+    animation-name: h1Animation;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 150px;
+    height: 80px;
+    transform: scale(1);
+    animation-name: imgAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+
+@keyframes imgAnimation {
+    0% {
+        border: 5px solid black;
+    }
+
+    5% {
+        border: 5px solid rgb(97, 94, 94);
+    }
+
+    10% {
+        border: 5px solid rgb(255, 0, 0);
+    }
+
+    15% {
+        border: 5px solid rgb(255, 0, 174);
+    }
+
+    20% {
+        border: 5px solid rgb(174, 0, 255);
+    }
+
+    25% {
+        border: 5px solid rgb(60, 0, 255);
+    }
+
+    30% {
+        border: 5px solid rgb(0, 68, 255);
+    }
+
+    35% {
+        border: 5px solid rgb(0, 255, 247);
+    }
+
+    40% {
+        border: 5px solid rgb(0, 255, 110);
+    }
+
+    45% {
+        border: 5px solid rgb(0, 255, 0);
+    }
+
+    50% {
+        border: 5px solid rgb(149, 255, 0);
+    }
+
+    55% {
+        border: 5px solid rgb(200, 255, 0);
+    }
+
+    60% {
+        border: 5px solid rgb(242, 255, 0);
+    }
+
+    65% {
+        border: 5px solid rgb(255, 166, 0);
+    }
+
+    70% {
+        border: 5px solid rgb(255, 102, 0);
+    }
+
+    75% {
+        border: 5px solid #037957;
+    }
+
+    80% {
+        border: 5px solid #123456;
+    }
+
+    85% {
+        border: 5px solid #987698;
+    }
+
+    90% {
+        border: 5px solid #4565;
+    }
+
+    95% {
+        border: 5px solid #357;
+    }
+
+    100% {
+        border: 5px solid #f500af;
+    }
+}
+
+
+
+
+.h1 {
+    width: 800px;
+    background-color: #000000;
+    margin: 50px auto;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transform: scale(1.3);
+    animation-name: h1Animation;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 22s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    margin-bottom: 80px;
+}
+
+
+@keyframes h1Animation {
+    0% {
+        transform: translateX(0) scale(1) rotate(0) skew(0);
+        background-color: rgb(61, 61, 61);
+        border-radius: 10px;
+        color: #ff0000;
+    }
+
+    50% {
+        transform: translateX(2) scale(2) rotate(2) skew(4);
+        background-color: rgb(0, 0, 0);
+        color: #f4f4f4;
+        border-radius: 25px;
+    }
+
+    100% {
+        transform: translateX(2) scale(2) rotate(2) skew(2);
+        background-color: rgb(250, 213, 213);
+        color: #cc00ff;
+        border-radius: 10px;
+    }
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    color: rgb(208, 0, 255);
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    animation-name: inputAnimation;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: 1;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+@keyframes inputAnimation {
+    0% {
+        transform: translateX(0) scale(1) rotate(0) skew(0);
+        color: #ff0000;
+    }
+
+    15% {
+        transform: translateX(0) scale(1) rotate(0) skew(0);
+        color: #037957;
+    }
+
+    30% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        color: #ae00ff;
+    }
+
+    45% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        color: #fbff00;
+    }
+
+    60% {
+        transform: translateX(1) scale(4) rotate(4) skew(4);
+        color: #22ff00;
+    }
+
+    75% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        color: #3100f5;
+    }
+
+    90% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        color: #f500af;
+    }
+}
+
+.div {
+    width: 500px;
+    position: relative;
+    margin: 20px;
+    color: #000000;
+    transform: scale(1.2);
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.div1 {
+    width: 470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+button {
+    background-color: #037957;
+    width: 500px;
+    height: 50px;
+    border: none;
+    transform: scale(0.9);
+    animation-name: buttonAnimation;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: translateY(10);
+        transform: translateX(0) scale(1) rotate(0) skew(0);
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        color: #000000;
+    }
+
+    50% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        background-color: rgb(0, 255, 238);
+        color: #ff00aa;
+        border-radius: 10px;
+    }
+
+    100% {
+        transform: translateX(1) scale(1) rotate(1) skew(1);
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+    }
+}
+
+.img1 {
+    width: 50%;
+}
+
+.img2 {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+
+.img_1 {
+    padding: 10px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(1);
+    animation-name: img_1Animation;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+
+
+@keyframes img_1Animation {
+    0% {
+        border: 10px solid black;
+        background-color: #f500af;
+    }
+
+    5% {
+        border: 10px solid rgb(97, 94, 94);
+        background-color: #fff;
+    }
+
+    10% {
+        border: 10px solid rgb(255, 0, 0);
+        background-color: rgb(255, 0, 174);
+    }
+
+    15% {
+        border: 10px solid rgb(255, 0, 174);
+        background-color: rgb(60, 0, 255);
+    }
+
+    20% {
+        border: 10px solid rgb(174, 0, 255);
+        background-color: rgb(0, 255, 247);
+    }
+
+    25% {
+        border: 10px solid rgb(60, 0, 255);
+        background-color: rgb(0, 255, 0);
+        ;
+    }
+
+    30% {
+        border: 10px solid rgb(0, 68, 255);
+        background-color: rgb(255, 166, 0);
+    }
+
+    35% {
+        border: 10px solid rgb(0, 255, 247);
+        background-color: #123456;
+    }
+
+    40% {
+        border: 10px solid rgb(0, 255, 110);
+        background-color: #987698;
+    }
+
+    45% {
+        border: 10px solid rgb(0, 255, 0);
+        background-color: #4565;
+    }
+
+    50% {
+        border: 10px solid rgb(149, 255, 0);
+        background-color: rgb(255, 0, 0);
+    }
+
+    55% {
+        border: 10px solid rgb(200, 255, 0);
+        background-color: rgb(174, 0, 255);
+    }
+
+    60% {
+        border: 10px solid rgb(242, 255, 0);
+        background-color: rgb(0, 68, 255);
+    }
+
+    65% {
+        border: 10px solid rgb(255, 166, 0);
+        background-color: #357;
+    }
+
+    70% {
+        border: 10px solid rgb(255, 102, 0);
+        background-color: rgb(149, 255, 0);
+    }
+
+    75% {
+        border: 10px solid #037957;
+        background-color: rgb(242, 255, 0);
+    }
+
+    80% {
+        border: 10px solid #123456;
+        background-color: rgb(200, 255, 0);
+    }
+
+    85% {
+        border: 10px solid #987698;
+        background-color: #037957;
+    }
+
+    90% {
+        border: 10px solid #4565;
+        background-color: rgb(255, 102, 0);
+    }
+
+    95% {
+        border: 10px solid #357;
+        background-color: rgb(97, 94, 94);
+    }
+
+    100% {
+        border: 10px solid #f500af;
+        background: #000;
+    }
+}
+
+p {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    animation-name: inputAnimation;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: 1;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    flex-wrap: wrap;
+}
+
+.hr {
+    animation-name: hrAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+@keyframes hrAnimation {
+    0% {
+        width: 100%;
+        border: 2px solid black;
+        background-color: #f500af;
+    }
+
+    5% {
+        border: 2px solid rgb(97, 94, 94);
+        background-color: #fff;
+        width: 95%;
+    }
+
+    10% {
+        border: 2px solid rgb(255, 0, 0);
+        background-color: rgb(255, 0, 174);
+        width: 90%;
+    }
+
+    15% {
+        border: 2px solid rgb(255, 0, 174);
+        background-color: rgb(60, 0, 255);
+        width: 85%;
+    }
+
+    20% {
+        border: 2px solid rgb(174, 0, 255);
+        background-color: rgb(0, 255, 247);
+        width: 80%;
+    }
+
+    25% {
+        border: 2px solid rgb(60, 0, 255);
+        background-color: rgb(0, 255, 0);
+        ;
+        width: 75%;
+    }
+
+    30% {
+        border: 2px solid rgb(0, 68, 255);
+        background-color: rgb(255, 166, 0);
+        width: 70%;
+    }
+
+    35% {
+        border: 2px solid rgb(0, 255, 247);
+        background-color: #123456;
+        width: 65%;
+    }
+
+    40% {
+        border: 2px solid rgb(0, 255, 110);
+        background-color: #987698;
+        width: 60%;
+    }
+
+    45% {
+        border: 2px solid rgb(0, 255, 0);
+        background-color: #4565;
+        width: 55%;
+    }
+
+    50% {
+        border: 2px solid rgb(149, 255, 0);
+        background-color: rgb(255, 0, 0);
+        width: 50%;
+    }
+
+    55% {
+        border: 2px solid rgb(200, 255, 0);
+        background-color: rgb(174, 0, 255);
+        width: 45%;
+    }
+
+    60% {
+        border: 2px solid rgb(242, 255, 0);
+        background-color: rgb(0, 68, 255);
+        width: 40%;
+    }
+
+    65% {
+        border: 2px solid rgb(255, 166, 0);
+        background-color: #357;
+        width: 35%;
+    }
+
+    70% {
+        border: 2px solid rgb(255, 102, 0);
+        background-color: rgb(149, 255, 0);
+        width: 30%;
+    }
+
+    75% {
+        border: 2px solid #037957;
+        background-color: rgb(242, 255, 0);
+        width: 25%;
+    }
+
+    80% {
+        border: 2px solid #123456;
+        background-color: rgb(200, 255, 0);
+        width: 20%;
+    }
+
+    85% {
+        border: 2px solid #987698;
+        background-color: #037957;
+        width: 15%;
+    }
+
+    90% {
+        border: 2px solid #4565;
+        background-color: rgb(255, 102, 0);
+        width: 10%;
+    }
+
+    95% {
+        border: 2px solid #357;
+        background-color: rgb(97, 94, 94);
+        width: 5%;
+    }
+
+    100% {
+        border: 2px solid #f500af;
+        background: #000;
+        width: 0%;
+    }
+}
+
+/*   1   */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #03e9f4;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+a:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4 0 0 25px #03e9f4 0 0 50px #03e9f4 0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0px 8px 100px 0px #03e9f4;
+
+}
+
+a:first-child {
+    filter: hue-rotate(225deg);
+}
+
+a:last-child {
+    filter: hue-rotate(90deg);
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animatel 1s infinite;
+}
+
+@keyframes animatel {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s infinite;
+    animation-delay: .25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s infinite;
+    animation-delay: .75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}
+
+.div2 {
+    width: 500px;
+}
+
+
+.img_2 img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.img_2 p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img5 {
+    position: relative;
+    top: -50px;
+}
+
+.h2{
+    width: 1100px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;    
+}
